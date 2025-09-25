@@ -31,9 +31,9 @@
 ---
 
 ## 📂 디렉토리 구조
-index.html
-css/
-└─ style.css
-js/
-└─ script.js
-images/
+index.html <br>
+css/ <br>
+└─ style.css <br>
+js/ <br>
+└─ script.js <br>
+images/ <br>
