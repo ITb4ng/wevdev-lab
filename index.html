@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>오픈뱅킹</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/jquery-1.12.3.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <!-- A. 헤더 -->
+  <header id="header">
+    <div class="container">
+      <h1 class="logo">
+        <a href="#">
+          <!-- <img src="images/logo.png" alt="logo" /> -->
+        </a>LOGO
+      </h1>
+      <nav class="main-nav">
+        <ul>
+          <li class="mainmenu">
+            <a href="#">조회</a>
+            <ul class="submenu">
+              <li><a href="#">계좌조회</a></li>
+              <li><a href="#">거래내역조회</a></li>
+              <li><a href="#">휴면계좌 조회</a></li>
+              <li><a href="#">수표/어음 조회</a></li>
+            </ul>
+          </li>
+          <li class="mainmenu">
+            <a href="#">이체</a>
+            <ul class="submenu">
+              <li><a href="#">계좌이체</a></li>
+              <li><a href="#">다계좌이체</a></li>
+              <li><a href="#">자동이체</a></li>
+              <li><a href="#">예약이체</a></li>
+            </ul>
+          </li>
+          <li class="mainmenu">
+						<a href="#">공과금</a>
+            <ul class="submenu">
+              <li><a href="#">지로/생활요금</a></li>
+              <li><a href="#">지방세</a></li>
+              <li><a href="#">국세/관세</a></li>
+              <li><a href="#">벌칙금/벌과금</a></li>
+            </ul>
+          </li>
+          <li class="mainmenu">
+						<a href="#">외환</a>
+						<ul class="submenu">
+              <li><a href="#">금리</a></li>
+              <li><a href="#">환율/외화예금</a></li>
+              <li><a href="#">글로벌뱅킹</a></li>
+              <li><a href="#">외화송금</a></li>
+            </ul>
+					</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <!-- B. 슬라이드 영역 -->
+    <section id="slide">
+      <ul>
+        <li class="s1">
+          <a href="#">
+            <div class="slide-bg"></div>
+            <!-- <img src="images/slide1.png" alt="slide1" /> -->
+            <h2>슬라이드 1</h2>
+          </a>
+        </li>
+        <li class="s2">
+          <a href="#">
+            <div class="slide-bg"></div>
+            <!-- <img src="images/slide2.png" alt="slide2" /> -->
+            <h2>슬라이드 2</h2>
+          </a>
+        </li>
+        <li class="s3">
+          <a href="#">
+            <div class="slide-bg"></div>
+            <!-- <img src="images/slide3.png" alt="slide1" /> -->
+            <h2>슬라이드 3</h2>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- C. 컨텐츠 영역 -->
+    <div class="container"> 
+      <div class="content">
+        <!-- 링크 메뉴 -->
+        <div class="link">
+          <ul>
+            <li>
+              <!-- <img src="images/link1.png" alt="link1" /> 
+                <a href="#">계좌개설</a>
+              /> -->
+              <a href="#">
+                 <span class="link-img">IMG</span>
+                 계좌개설
+              </a>
+            </li>
+            <li>
+              <!-- <img src="images/link2.png" alt="link2"> 
+                <a href="#">대출신청</a>
+              /> -->
+              <a href="#">
+                  <span class="link-img">IMG</span>
+                  대출신청
+              </a>
+            </li>
+            <li>
+              <!-- <img src="images/link3.png" alt="link3"> 
+                <a href="#">외환신청</a>
+              -->
+              <a href="#">
+                  <span class="link-img">IMG</span>
+                  외환신청
+              </a>
+            </li>
+            <li>
+              <!-- <img src="images/link4.png" alt="link4"> 
+                <a href="#">상품안내</a>
+              /> -->
+              <a href="#">
+                  <span class="link-img">IMG</span>
+                  상품안내
+              </a>
+            </li>
+            <li>
+              <!-- <img src="images/link5.png" alt="link5"> 
+                <a href="#">고객센터</a>
+              /> -->
+              <a href="#">
+                  <span class="link-img">IMG</span>
+                  고객센터
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 배너 -->
+        <div class="banner">
+          <div class="banner-item">
+            <div class="banner-image">
+              <!-- <img src="images/banner1.png" alt="banner1" /> -->
+              Sample
+            </div>
+            <div class="banner-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nisi facilis eius eos pariatur, excepturi doloremque quod! Blanditiis impedit explicabo assumenda et vitae. Ipsum, eveniet. Commodi quas totam asperiores nobis?</div>
+            <div class="banner-arrow">
+              <!-- <img src="images/banner-arrow.png" alt="오른쪽 화살표" /> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- 탭 메뉴 -->
+        <ul class="tab-menu">
+          <li class="active"><a href="#notice">공지사항</a></li>
+          <li><a href="#gallery">갤러리</a></li>
+        </ul>
+
+        <!-- 공지사항 -->
+        <div id="notice" class="tab-content active">
+          <ul>
+            <li class="popup-trigger"><span>2025-09-23</span> Lorem ipsum dolor sit amet consectetur.</li>
+            <li class="popup-trigger"><span>2025-09-23</span> Adipisicing elit sed do eiusmod tempor.</li>
+            <li class="popup-trigger"><span>2025-09-23</span> Ut enim ad minim veniam quis nostrud.</li>
+            <li class="popup-trigger"><span>2025-09-23</span> Exercitation ullamco laboris nisi ut aliquip.</li>
+          </ul>
+        </div>
+
+        <!-- 갤러리 -->
+        <div id="gallery" class="tab-content">
+          <div class="gallery-box">
+            <!-- <img src="images/gallery1.png" alt="gallery1"> -->
+            sample01
+          </div>
+          <div class="gallery-box">
+            <!-- <img src="images/gallery2.png" alt="gallery2"> -->
+            sample02
+          </div>
+          <div class="gallery-box">
+            <!-- <img src="images/gallery3.png" alt="gallery3"> -->
+            sample03
+          </div>
+        </div>
+    </div>
+    <!-- D. 푸터 영역 -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-logo">
+          <h2>
+            <a href="#">logo
+              <!-- <img src="images/footer-logo.png" alt="footer logo" /> -->
+            </a>
+          </h2>
+        </div>
+        <div class="footer-info">
+          <ul class="footer-links">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">청약철회정책</a></li>
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">회사소개</a></li>
+          </ul>
+          <div class="footer-copy">
+            &copy; 2025 오픈뱅킹. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+  
+  <!-- 공지사항 팝업 -->
+  <div id="notice-popup">
+    <div class="popup-content">
+      <h2>팝업 제목</h2>
+      <p>팝업 설명 내용이 여기에 들어갑니다. <br>
+      Lorem ipsum dolor sit amet.
+      Lorem ipsum dolor sit amet, 
+      consectetur adipisicing elit. 
+      Alias iusto nobis optio quisquam 
+      ipsum voluptatum corporis explicabo 
+      ea quibusdam deserunt dolorum fugit, 
+      repellat libero! Sunt eum eius suscipit, 
+      veritatis ex maiores nulla commodi consequuntur 
+      mollitia, adipisci qui sapiente? Quam, officia!</p>
+      <button class="close-btn">닫기</button>
+    </div>
+  </div>
+</body>
+</html>
